@@ -43,6 +43,13 @@ magnitude: [0, 500, 1000],
 timepoints: [3, 5, 7, 10, 13, 17, 20],
 },
 {
+video_one: src+"0msec_033_fighter_planes_wonder_what_They_say_rev.mp4",
+video_two: src+"500msec_033_fighter_planes_wonder_what_They_say_rev.mp4",
+video_three: src+"1000msec_033_fighter_planes_wonder_what_They_say_rev.mp4",
+magnitude: [0, 500, 1000],
+timepoints: [3, 6, 10, 12, 16, 18, 21],
+},
+{
 video_one: src+"0msec_032_they_have_destroyed_their_own_guns_rev.mp4",
 video_two: src+"500msec_032_they_have_destroyed_their_own_guns_rev.mp4",
 video_three: src+"1000msec_032_they_have_destroyed_their_own_guns_rev.mp4",
