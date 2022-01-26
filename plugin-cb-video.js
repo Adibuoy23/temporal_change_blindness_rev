@@ -211,7 +211,7 @@ var jsPsychCbVideo = (function (jspsych) {
             }
             video_html += "</video>";}
           if(trial.mask){
-            video_html += '<img src="https://adibuoy23.github.io/temporal_change_blindness/stimuli/mask.png" id="mask" style="position:absolute;top:0;left:0;"';
+            video_html += '<img src="https://adibuoy23.github.io/temporal_change_blindness_rev/stimuli/mask.png" id="mask" style="position:absolute;top:0;left:0;"';
             if (trial.width) {
                 video_html += ' width=' + trial.width + ';';
             }
@@ -531,6 +531,7 @@ var jsPsychCbVideo = (function (jspsych) {
                   ChangeMagnitude: JSON.stringify(response.ChangeMagnitude),
                   ChangeDirection: JSON.stringify(response.ChangeDirection),
                   ChangeCoded: JSON.stringify(response.ChangeCoded),
+                  total_counters: JSON.stringify(counter);
 
               };
               // clear the display
