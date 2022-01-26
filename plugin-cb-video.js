@@ -531,7 +531,7 @@ var jsPsychCbVideo = (function (jspsych) {
                   ChangeMagnitude: JSON.stringify(response.ChangeMagnitude),
                   ChangeDirection: JSON.stringify(response.ChangeDirection),
                   ChangeCoded: JSON.stringify(response.ChangeCoded),
-                  total_counters: JSON.stringify(counter);
+                  total_counters: JSON.stringify(counter),
 
               };
               // clear the display
